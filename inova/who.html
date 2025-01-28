@@ -15,41 +15,37 @@
     div .verde {
       background-image: url('peça verde.png');
       background-repeat: no-repeat;
-      background-attachment: static;
       background-size: 25%;
       padding-top: 50px;
       padding-left: 50px;
-      text-align: center;
+      text-align: justify;
     }
 
     div .azul {
       background-image: url('peça azul.png');
       background-repeat: no-repeat;
-      background-attachment: static;
       background-size: 15%;
       padding-top: 50px;
       padding-left: 50px;
-      text-align: center;
+      text-align: justify;
     }
 
     div .vermelha {
       background-image: url('peça vermelha.png');
       background-repeat: no-repeat;
-      background-attachment: static;
       background-size: 15%;
       padding-top: 50px;
       padding-left: 50px;
-      text-align: center;
+      text-align: justify;
     }
 
     div .amarelha {
       background-image: url('interrogação.png');
       background-repeat: no-repeat;
-      background-attachment: static;
       background-size: 6%;
       padding-top: 50px;
       padding-left: 20px;
-      text-align: center;
+      text-align: justify;
     }
     
     .col-md-2 p{
@@ -98,12 +94,20 @@
 </head>
 <body>
   <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3" style="background-color: #C5E86C;">.</div>
+        <div class="col-sm-3" style="background-color: #FAE053;">.</div>
+        <div class="col-sm-3" style="background-color: #99D6EA;">.</div>
+        <div class="col-sm-3" style="background-color: #F9423A;">.</div>
+      </div>
+    </div>
     <div class="navbar">
       <img src="logo ong.png" alt="logo" style="width:150px;">
       <nav>
-        <a href="#about">Quem somos</a>
-        <a href="#work">Projetos</a>
-        <a href="#doar">Pra ajudar aqui</a>
+      	<a href="who.html">Quem somos</a>
+      	<a href="proj.html">Projetos</a>
+        <a href="doar.html">Pra ajudar aqui</a>
       </nav>
     </div>
   </header>
@@ -111,7 +115,7 @@
     <h1>Quem somos</h1>
   <div class="container">
     <div class="row">
-      <div class="col-sm-16">
+      <div class="col-sm-12">
         <div class="verde">
           <h2>1. Sobre a ONG</h2>
           <h3>“SE QUEREMOS PROGREDIR, NÃO DEVEMOS REPETIR A HISTÓRIA, MAS FAZER UMA HISTÓRIA NOVA”</h3>
@@ -127,7 +131,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm-16">
+      <div class="col-sm-12">
         <div class="azul">
           <h2>2. Visão</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -142,7 +146,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm-16">
+      <div class="col-sm-12">
         <div class="vermelha">
           <h2>3. Missão</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -157,7 +161,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm-16">
+      <div class="col-sm-12">
         <div class="amarelha">
           <h2>4. Valores</h2>
             <li>Inovação – Estar à frente com soluções tecnológicas que facilitam o acesso ao mercado financeiro e oferecem uma experiência intuitiva e transformadora.</li>
@@ -172,7 +176,6 @@
   <div class="container">
       <div class="row">
         <div id="testimonial" class="col-sm-12">
-          <div id="testimonial" class="col-sm-6">
             <h1>EQUIPE</h1>
             <blockquote>
               “Lorem ipsum dolor sit amet, consectetur.”
@@ -183,9 +186,7 @@
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <b>JANE DOE, CITY NAME, STATE, COUNTRY</b>
-            <span class="dot3"></span>
-          </div>
+            <strong>JANE DOE, CITY NAME, STATE, COUNTRY</strong>
         </div>
       </div>
     </div>
@@ -194,8 +195,8 @@
     <div class="footer-content">
       <div class="row">
           <div class="col-sm-4">INSTUTO NOVOS VALORES
-            <ul>123 Street Name
-            City Name, Country</ul></div>
+            <address>123 Street Name
+            City Name, Country</div>
           <div class="col-sm-4">
             <img src="face.png" alt="redes" width="15%">
           </div>  
