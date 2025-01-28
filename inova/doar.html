@@ -12,41 +12,29 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <style>
-    div.col-sm-12 {
-      font-size: 38px; 
-      text-align: center;
-    }
-
-    div.mis:after{
-      content: "";
-      clear: both;
-      display: table;
-      width: auto;
-    }
-
-    div.mis{
-      background-color: #C5E86C;
-      padding: 10px;
-      border-radius: 3px;
-      padding-top: 12px;
-      margin: 10px;
+    body {
+      font-family: 'Quicksand', sans-serif;
     }
     
-    fieldset{
+    .container p, .container li {
       text-align: center;
     }
-
-    input[type=text], [type=email], [type=tel-dono], [type=number] {
-      width: 80%;
-      padding: 12px;
-      margin: 8px;
-      box-sizing: border-box;
-      border: none;
-      border-radius: 20px;
-      color: white;
-      border-bottom: 2px solid #FAE053;
+    
+    .mis {
+      background-color: #C5E86C;
+      padding: 15px;
+      border-radius: 5px;
+      margin: 15px 0;
     }
-
+    
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 2px solid #FAE053;
+      border-radius: 20px;
+    }
+    
     input[type=submit]{
       background-color: white;
       border: 2px solid #F9423A;
@@ -57,18 +45,6 @@
       margin: 4px;
       cursor: pointer;
       float: right;
-    }
-
-    textarea {
-      width: 95%;
-      height: 150px;
-      padding: 12px 20px;
-      box-sizing: border-box;
-      border: 2px solid #FAE053;
-      border-radius: 4px;
-      background-color: #f8f8f8;
-      font-size: 16px;
-      resize: none;
     }
   </style>
   <title>Pra ajudar aqui</title>
