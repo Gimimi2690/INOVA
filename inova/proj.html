@@ -27,10 +27,6 @@
       width: 100%;
     }
 
-    #cursos3{
-      text-align: center;
-    }
-
     div.mis{
       background-color: #99D6EA;
       padding: 10px;
@@ -39,64 +35,39 @@
       margin: 10px;
     }
 
-    #cor2 {
-      background-color: #FAE053;
-    }
-
-    #cor3 {
-      background-color: #99D6EA;
-    }
-
-    #cor4 {
-      background-color: #F9423A;
-    }
-
-    div.mis:after{
-      content: "";
-      clear: both;
-      display: table;
-      width: auto;
-    }
+    #cor2 { background-color: #FAE053; }
+    #cor3 { background-color: #99D6EA; }
+    #cor4 { background-color: #F9423A; }
 
     img{
       border-radius: 2px;
     }
 
-    table{
-      border: 1px solid;
-      border-collapse: collapse;
-      width: 100%;
-      font-family: "Mochiy Pop P One", sans-serif;
-      font-weight: 300;
-      font-style: normal;
-    }
-
-    th, td{
-      padding: 8px;
-    }
-
-    td{
-      width: 30%;
-    }
-
-  tr:nth-child(even) {background-color: #C5E86C;}
   </style>
   <title>Projetos</title>
 </head>
 <body>
   <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3" style="background-color: #C5E86C;">.</div>
+        <div class="col-sm-3" style="background-color: #FAE053;">.</div>
+        <div class="col-sm-3" style="background-color: #99D6EA;">.</div>
+        <div class="col-sm-3" style="background-color: #F9423A;">.</div>
+      </div>
+    </div>
     <div class="navbar">
       <img src="logo ong.png" alt="logo" style="width:150px;">
       <nav>
-        <a href="#about">Quem somos</a>
-        <a href="#work">Projetos</a>
-        <a href="#doar">Pra ajudar aqui</a>
+      	<a href="who.html">Quem somos</a>
+      	<a href="proj.html">Projetos</a>
+        <a href="doar.html">Pra ajudar aqui</a>
       </nav>
     </div>
   </header>
   <div class="container">
     <div class="row">
-      <div class="col-md-16">
+      <div class="col-md-12">
         <h1>Grupos</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -121,29 +92,29 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
           </div>
           <div class="mis" id="cor3">
-            <div class="lateral" id="cursos2"><img src="fotos/foto2.jpg" alt="Renda Fixa" width="100%"></div>
+            <div class="lateral" id="cursos2"><img src="img/Investimentos6.png" alt="Renda Fixa" width="100%"></div>
             <li>Renda Fixa</li>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
           </div>
           <div class="mis" id="cor4">
-            <div class="lateral" id="cursos2"><img src="fotos/foto5.jpg" alt="Analise de Ações" width="100%"></div>
+            <div class="lateral" id="cursos2"><img src="img/ações.png" alt="Analise de Ações" width="100%"></div>
             <li>Analise de Ações</li>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
           </div>
         </div>
         <div class="col-md-6">
           <div class="mis">
-            <div class="lateral" id="cursos2"><img src="fotos/fot6o.jpgg" alt="Fundos Imobiliários" width="100%"></div>
+            <div class="lateral" id="cursos2"><img src="img/Investimentos7.png" alt="Fundos Imobiliários" width="100%"></div>
             <li>Fundos Imobiliários</li>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
           </div>
           <div id="cor2" class="mis">
-            <div class="lateral" id="cursos2"><img src="fotos/foto11.jpg" alt="Declaração de Imposto de Renda" width="100%"></div>
+            <div class="lateral" id="cursos2"><img src="img/Imposto de Renda.png" alt="Declaração de Imposto de Renda" width="100%"></div>
             <li>Declaração de Imposto de Renda</li>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
           </div>
           <div class="mis" id="cor3">
-            <div class="lateral" id="cursos2"><img src="fotos/foto18.jpg" alt="Criptomoedas" width="100%"></div>
+            <div class="lateral" id="cursos2"><img src="img/cripto.png" alt="Criptomoedas" width="100%"></div>
             <li>Criptomoedas</li>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
           </div>
@@ -154,68 +125,7 @@
           </div>
         </div>
       </div>
-      <h1>Cronograma de Cursos</h1>
-<div class="row">
-      <div class="col-sm-12">
-  <div style="overflow-x: auto;">
-    <table style="width:100%">
-        <tr>
-          <th>ATIVIDADES</th>
-          <th colspan="3">1º TRIMESTRE</th>
-          <th colspan="3">2º TRIMESTRE</th>
-        </tr>
-        <tr id="cor2">
-          <th></th>
-          <th>JAN</th>
-          <th>FEV</th>
-          <th>MAR</th>
-          <th>ABR</th>
-          <th>MAI</th>
-          <th>JUN</th>
-        </tr>
-    </table>
-  <table>
-    <tr>
-      <th>MÓDULO 1</th>
-      <th>O Investidor Completo</th>
-      <td><a target="_blank" href="img/seta.png"><a href="img/seta.png"><img src="img/seta.png" alt="ações" width="100%"></a></a>
-      </td>
-    </tr>
-    <tr id="cor3">
-      <th>MÓDULO 2</th>
-      <th>Mão na massa (Parte prática) e Construção de portfólio</th>
-      <td><a target="_blank" href="img/seta.png"><a href="img/seta.png"><img src="img/seta.png" alt="ações" width="100%"></a></a>
-      </td>
-    </tr>
-    <tr>
-      <th>MÓDULO 3</th>
-      <th>Análise de fundos imobiliários brasileiros</th>
-      <td><a target="_blank" href="img/seta.png"><a href="img/seta.png"><img src="img/seta.png" alt="ações" width="100%"></a></a>
-      </td>
-    </tr>
-    <tr id="cor4">
-      <th>MÓDULO 4</th>
-      <th>Análise de ações brasileiras</th>
-      <td><a target="_blank" href="img/seta.png"><a href="img/seta.png"><img src="img/seta.png" alt="ações" width="100%"></a></a>
-      </td>
-    </tr>
-    <tr>
-      <th>MÓDULO 5</th>
-      <th>Criptomoedas</th>
-      <td><a target="_blank" href="img/seta.png"><a href="img/seta.png"><img src="img/seta.png" alt="ações" width="100%"></a></a>
-      </td>
-    </tr>
-    <tr>
-      <th>MÓDULO 6</th>
-      <th>Análise Técnica e Gestão de grandes fortunas</th>
-      <td><a target="_blank" href="img/seta.png"><a href="img/seta.png"><img src="img/seta.png" alt="ações" width="100%"></a></a>
-      </td>
-    </tr>
-  </table>
-  </div>
-   </div>
- </div>
-</div>
+    </div>
 </main>
 <footer>
     <div class="footer-content">
